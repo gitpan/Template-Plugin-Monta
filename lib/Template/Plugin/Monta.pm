@@ -4,7 +4,7 @@ use base qw/Template::Plugin::Filter/;
 use vars qw/$VERSION $DYNAMIC $FILTER_NAME/;
 use Acme::Monta;
 
-$VERSION = 0.01;
+$VERSION = 0.02;
 $DYNAMIC = 1;
 $FILTER_NAME = 'monta';
 
@@ -49,7 +49,7 @@ Template::Plugin::Monta - TT2 Filter, Acme::Monta adaptor
 
   [% USE Monta %]
   
-  [% Filter $Monta close_font => '#0f0', close_back => '#0f0' %]
+  [% FILTER $Monta close_font => '#0f0', close_back => '#0f0' %]
   <monta>Let's Montaize!</monta>
   [% END %]
 
