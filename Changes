@@ -1,5 +1,8 @@
 Revision history for Perl extension Template::Plugin::Monta.
 
+0.03  Sat Jun 18 18:00:00 2005
+    - fixed pod
+
 0.02  Mon Jun 14 02:05:00 2005
 	- fixed typo
 
